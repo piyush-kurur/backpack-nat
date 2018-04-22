@@ -1,0 +1,46 @@
+cabal-version: 2.2
+
+name:                backpack-nat
+version:             0.1.0.0
+synopsis:            Types with Nat kind in Backpack
+-- description:
+homepage:            https://github.com/piyush-kurur/backpack-nat
+license:             BSD-3-Clause
+license-file:        LICENSE
+author:              Piyush P Kurur
+maintainer:          ppk@cse.iitk.ac.in
+-- copyright:
+-- category:
+build-type:          Simple
+extra-source-files:  ChangeLog.md
+
+
+common defaults
+  default-language: Haskell2010
+  ghc-options: -Wall
+  build-depends: base                    >= 4.7  &&  < 4.12
+
+library backpack-nat-indef
+  import: defaults
+  hs-source-dirs: indef
+  signatures: Abstract
+  exposed-modules: Util
+  
+library backpack-nat-concrete
+  import: defaults
+  hs-source-dirs: concrete
+  exposed-modules: Concrete      
+
+library
+  import: defaults
+  build-depends: backpack-nat-indef, backpack-nat-concrete
+  hs-source-dirs: src
+  reexported-modules: BackpackNat.Util
+  mixins: backpack-nat-indef (Util as BackpackNat.Util)
+             requires   (Abstract as Concrete)
+
+executable bpnat
+  import: defaults
+  build-depends: backpack-nat
+  hs-source-dirs: bin
+  main-is: Main.hs
