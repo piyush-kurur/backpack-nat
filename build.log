@@ -1,0 +1,485 @@
+Build profile: -w ghc-8.4.1 -O1
+In order, the following will be built:
+ - backpack-nat-0.1.0.0 (lib:backpack-nat-concrete) (first run)
+ - backpack-nat-0.1.0.0 (lib:backpack-nat-indef) (first run)
+ - backpack-nat-0.1.0.0 (lib:backpack-nat-indef with Abstract=backpack-nat-0.1.0.0-inplace-backpack-nat-concrete:Concrete) (first run)
+ - backpack-nat-0.1.0.0 (lib) (first run)
+ - backpack-nat-0.1.0.0 (exe:bpnat) (first run)
+creating /home/ppk/code/git/backpack-nat/dist-newstyle/build
+creating /home/ppk/code/git/backpack-nat/dist-newstyle/tmp
+creating /home/ppk/code/git/backpack-nat/dist-newstyle/packagedb
+/home/ppk/haskell-compilers/ghc-8.4.1/bin/ghc-pkg init /home/ppk/code/git/backpack-nat/dist-newstyle/packagedb/ghc-8.4.1
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1
+creating /home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/cache
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/cache
+Using self-exec internal setup method with build-type Simple and args:
+["act-as-setup","--build-type=Simple","--","configure","--verbose=2","--builddir=/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete","--ghc","--prefix=/home/ppk/.cabal","--bindir=/home/ppk/.cabal/bin","--libdir=/home/ppk/.cabal/lib/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0-inplace-backpack-nat-concrete","--libsubdir=","--dynlibdir=/home/ppk/.cabal/lib/x86_64-linux-ghc-8.4.1","--libexecdir=/home/ppk/.cabal/libexec/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0","--libexecsubdir=","--datadir=/home/ppk/.cabal/share/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0","--datasubdir=","--docdir=/home/ppk/.cabal/share/doc/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0","--htmldir=/home/ppk/.cabal/share/doc/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0/html","--haddockdir=/home/ppk/.cabal/share/doc/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0/html","--sysconfdir=/home/ppk/.cabal/etc","--enable-library-vanilla","--disable-library-profiling","--enable-shared","--disable-static","--disable-executable-dynamic","--disable-profiling","--profiling-detail=default","--library-profiling-detail=default","--enable-optimization","--disable-debug-info","--disable-library-for-ghci","--disable-split-sections","--disable-split-objs","--disable-executable-stripping","--disable-library-stripping","--package-db=clear","--package-db=global","--package-db=/home/ppk/.cabal/store/ghc-8.4.1/package.db","--package-db=/home/ppk/code/git/backpack-nat/dist-newstyle/packagedb/ghc-8.4.1","--cid=backpack-nat-0.1.0.0-inplace-backpack-nat-concrete","--extra-prog-path=/home/ppk/.cabal/bin","--dependency=base=base-4.11.0.0","--disable-coverage","--exact-configuration","--with-ghc=/home/ppk/haskell-compilers/ghc-8.4.1/bin/ghc","--with-ghc-pkg=/home/ppk/haskell-compilers/ghc-8.4.1/bin/ghc-pkg","--ghc-option=-hide-all-packages","lib:backpack-nat-concrete"]
+Using self-exec internal setup method with build-type Simple and args:
+["act-as-setup","--build-type=Simple","--","configure","--verbose=2","--builddir=/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef","--ghc","--prefix=/home/ppk/.cabal","--bindir=/home/ppk/.cabal/bin","--libdir=/home/ppk/.cabal/lib/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0-inplace-backpack-nat-indef","--libsubdir=","--dynlibdir=/home/ppk/.cabal/lib/x86_64-linux-ghc-8.4.1","--libexecdir=/home/ppk/.cabal/libexec/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0","--libexecsubdir=","--datadir=/home/ppk/.cabal/share/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0","--datasubdir=","--docdir=/home/ppk/.cabal/share/doc/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0","--htmldir=/home/ppk/.cabal/share/doc/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0/html","--haddockdir=/home/ppk/.cabal/share/doc/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0/html","--sysconfdir=/home/ppk/.cabal/etc","--enable-library-vanilla","--disable-library-profiling","--enable-shared","--disable-static","--disable-executable-dynamic","--disable-profiling","--profiling-detail=default","--library-profiling-detail=default","--enable-optimization","--disable-debug-info","--disable-library-for-ghci","--disable-split-sections","--disable-split-objs","--disable-executable-stripping","--disable-library-stripping","--package-db=clear","--package-db=global","--package-db=/home/ppk/.cabal/store/ghc-8.4.1/package.db","--package-db=/home/ppk/code/git/backpack-nat/dist-newstyle/packagedb/ghc-8.4.1","--cid=backpack-nat-0.1.0.0-inplace-backpack-nat-indef","--extra-prog-path=/home/ppk/.cabal/bin","--dependency=base=base-4.11.0.0","--disable-coverage","--exact-configuration","--with-ghc=/home/ppk/haskell-compilers/ghc-8.4.1/bin/ghc","--with-ghc-pkg=/home/ppk/haskell-compilers/ghc-8.4.1/bin/ghc-pkg","--ghc-option=-hide-all-packages","lib:backpack-nat-indef"]
+/home/ppk/.cabal/bin/cabal act-as-setup --build-type=Simple -- configure
+--verbose=2
+--builddir=/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete
+/home/ppk/.cabal/bin/cabal act-as-setup --build-type=Simple -- configure
+--ghc --prefix=/home/ppk/.cabal --bindir=/home/ppk/.cabal/bin
+--verbose=2
+--libdir=/home/ppk/.cabal/lib/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0-inplace-backpack-nat-concrete
+--builddir=/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef
+--libsubdir= --dynlibdir=/home/ppk/.cabal/lib/x86_64-linux-ghc-8.4.1
+--ghc --prefix=/home/ppk/.cabal --bindir=/home/ppk/.cabal/bin
+--libexecdir=/home/ppk/.cabal/libexec/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0
+--libdir=/home/ppk/.cabal/lib/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0-inplace-backpack-nat-indef
+--libexecsubdir=
+--libsubdir= --dynlibdir=/home/ppk/.cabal/lib/x86_64-linux-ghc-8.4.1
+--datadir=/home/ppk/.cabal/share/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0
+--libexecdir=/home/ppk/.cabal/libexec/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0
+--datasubdir=
+--libexecsubdir=
+--docdir=/home/ppk/.cabal/share/doc/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0
+--datadir=/home/ppk/.cabal/share/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0
+--htmldir=/home/ppk/.cabal/share/doc/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0/html
+--datasubdir=
+--haddockdir=/home/ppk/.cabal/share/doc/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0/html
+--docdir=/home/ppk/.cabal/share/doc/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0
+--sysconfdir=/home/ppk/.cabal/etc --enable-library-vanilla
+--htmldir=/home/ppk/.cabal/share/doc/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0/html
+--disable-library-profiling --enable-shared --disable-static
+--haddockdir=/home/ppk/.cabal/share/doc/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0/html
+--disable-executable-dynamic --disable-profiling --profiling-detail=default
+--sysconfdir=/home/ppk/.cabal/etc --enable-library-vanilla
+--library-profiling-detail=default --enable-optimization --disable-debug-info
+--disable-library-profiling --enable-shared --disable-static
+--disable-library-for-ghci --disable-split-sections --disable-split-objs
+--disable-executable-dynamic --disable-profiling --profiling-detail=default
+--disable-executable-stripping --disable-library-stripping --package-db=clear
+--library-profiling-detail=default --enable-optimization --disable-debug-info
+--package-db=global --package-db=/home/ppk/.cabal/store/ghc-8.4.1/package.db
+--disable-library-for-ghci --disable-split-sections --disable-split-objs
+--package-db=/home/ppk/code/git/backpack-nat/dist-newstyle/packagedb/ghc-8.4.1
+--disable-executable-stripping --disable-library-stripping --package-db=clear
+--cid=backpack-nat-0.1.0.0-inplace-backpack-nat-concrete
+--package-db=global --package-db=/home/ppk/.cabal/store/ghc-8.4.1/package.db
+--extra-prog-path=/home/ppk/.cabal/bin --dependency=base=base-4.11.0.0
+--package-db=/home/ppk/code/git/backpack-nat/dist-newstyle/packagedb/ghc-8.4.1
+--disable-coverage --exact-configuration
+--cid=backpack-nat-0.1.0.0-inplace-backpack-nat-indef
+--with-ghc=/home/ppk/haskell-compilers/ghc-8.4.1/bin/ghc
+--extra-prog-path=/home/ppk/.cabal/bin --dependency=base=base-4.11.0.0
+--with-ghc-pkg=/home/ppk/haskell-compilers/ghc-8.4.1/bin/ghc-pkg
+--disable-coverage --exact-configuration
+--ghc-option=-hide-all-packages lib:backpack-nat-concrete
+--with-ghc=/home/ppk/haskell-compilers/ghc-8.4.1/bin/ghc
+--with-ghc-pkg=/home/ppk/haskell-compilers/ghc-8.4.1/bin/ghc-pkg
+--ghc-option=-hide-all-packages lib:backpack-nat-indef
+Using Parsec parser
+Using Parsec parser
+Configuring library 'backpack-nat-concrete' for backpack-nat-0.1.0.0..
+Configuring library 'backpack-nat-indef' for backpack-nat-0.1.0.0..
+Warning: 'hs-source-dirs: src' directory does not exist.
+Dependency base ==4.11.0.0: using base-4.11.0.0
+Warning: 'hs-source-dirs: src' directory does not exist.
+Dependency base ==4.11.0.0: using base-4.11.0.0
+Source component graph: component lib:backpack-nat-indef
+Configured component graph:
+    component backpack-nat-0.1.0.0-inplace-backpack-nat-indef
+        include base-4.11.0.0
+Linked component graph:
+    unit backpack-nat-0.1.0.0-inplace-backpack-nat-indef[Abstract=<Abstract>]
+        include base-4.11.0.0
+        Util=backpack-nat-0.1.0.0-inplace-backpack-nat-indef[Abstract=<Abstract>]:Util
+Ready component graph:
+    indefinite backpack-nat-0.1.0.0-inplace-backpack-nat-indef
+        depends base-4.11.0.0
+Using Cabal-2.2.0.0 compiled by ghc-8.0
+Using compiler: ghc-8.4.1
+Using install prefix: /home/ppk/.cabal
+Executables installed in: /home/ppk/.cabal/bin
+Libraries installed in:
+/home/ppk/.cabal/lib/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0-inplace-backpack-nat-indef
+Dynamic Libraries installed in: /home/ppk/.cabal/lib/x86_64-linux-ghc-8.4.1
+Private executables installed in:
+/home/ppk/.cabal/libexec/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0
+Data files installed in:
+/home/ppk/.cabal/share/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0
+Documentation installed in:
+/home/ppk/.cabal/share/doc/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0
+Configuration files installed in: /home/ppk/.cabal/etc
+No alex found
+Using ar found on system at: /usr/bin/ar
+No c2hs found
+No cpphs found
+No doctest found
+Using gcc version 7 found on system at: /usr/bin/gcc
+Using ghc version 8.4.1 given by user at:
+/home/ppk/haskell-compilers/ghc-8.4.1/bin/ghc
+Using ghc-pkg version 8.4.1 given by user at:
+/home/ppk/haskell-compilers/ghc-8.4.1/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+Using haddock version 2.19.0 found on system at:
+/home/ppk/haskell-compilers/ghc-8.4.1/bin/haddock
+No happy found
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/home/ppk/haskell-compilers/ghc-8.4.1/bin/hpc
+Using hsc2hs version 0.68.3 found on system at:
+/home/ppk/haskell-compilers/ghc-8.4.1/bin/hsc2hs
+No hscolour found
+No jhc found
+Using ld found on system at: /usr/bin/ld.gold
+No lhc found
+No lhc-pkg found
+Using pkg-config version 0.29 found on system at: /usr/bin/pkg-config
+Using runghc version 8.4.1 found on system at:
+/home/ppk/haskell-compilers/ghc-8.4.1/bin/runghc
+Using strip version 2.30 found on system at: /usr/bin/strip
+Using tar found on system at: /bin/tar
+No uhc found
+Source component graph: component lib:backpack-nat-concrete
+Configured component graph:
+    component backpack-nat-0.1.0.0-inplace-backpack-nat-concrete
+        include base-4.11.0.0
+Linked component graph:
+    unit backpack-nat-0.1.0.0-inplace-backpack-nat-concrete
+        include base-4.11.0.0
+        Concrete=backpack-nat-0.1.0.0-inplace-backpack-nat-concrete:Concrete
+Ready component graph:
+    definite backpack-nat-0.1.0.0-inplace-backpack-nat-concrete
+        depends base-4.11.0.0
+Using Cabal-2.2.0.0 compiled by ghc-8.0
+Using compiler: ghc-8.4.1
+Using install prefix: /home/ppk/.cabal
+Executables installed in: /home/ppk/.cabal/bin
+Libraries installed in:
+/home/ppk/.cabal/lib/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0-inplace-backpack-nat-concrete
+Dynamic Libraries installed in: /home/ppk/.cabal/lib/x86_64-linux-ghc-8.4.1
+Private executables installed in:
+/home/ppk/.cabal/libexec/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0
+Data files installed in:
+/home/ppk/.cabal/share/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0
+Documentation installed in:
+/home/ppk/.cabal/share/doc/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0
+Configuration files installed in: /home/ppk/.cabal/etc
+No alex found
+Using ar found on system at: /usr/bin/ar
+No c2hs found
+No cpphs found
+No doctest found
+Using gcc version 7 found on system at: /usr/bin/gcc
+Using ghc version 8.4.1 given by user at:
+/home/ppk/haskell-compilers/ghc-8.4.1/bin/ghc
+Using ghc-pkg version 8.4.1 given by user at:
+/home/ppk/haskell-compilers/ghc-8.4.1/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+Using haddock version 2.19.0 found on system at:
+/home/ppk/haskell-compilers/ghc-8.4.1/bin/haddock
+No happy found
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/home/ppk/haskell-compilers/ghc-8.4.1/bin/hpc
+Using hsc2hs version 0.68.3 found on system at:
+/home/ppk/haskell-compilers/ghc-8.4.1/bin/hsc2hs
+No hscolour found
+No jhc found
+Using ld found on system at: /usr/bin/ld.gold
+No lhc found
+No lhc-pkg found
+Using pkg-config version 0.29 found on system at: /usr/bin/pkg-config
+Using runghc version 8.4.1 found on system at:
+/home/ppk/haskell-compilers/ghc-8.4.1/bin/runghc
+Using strip version 2.30 found on system at: /usr/bin/strip
+Using tar found on system at: /bin/tar
+No uhc found
+Using self-exec internal setup method with build-type Simple and args:
+["act-as-setup","--build-type=Simple","--","build","--verbose=2","--builddir=/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef"]
+/home/ppk/.cabal/bin/cabal act-as-setup --build-type=Simple -- build
+--verbose=2
+--builddir=/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef
+Component build order: library 'backpack-nat-indef'
+/home/ppk/haskell-compilers/ghc-8.4.1/bin/ghc-pkg init /home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/package.conf.inplace
+Using self-exec internal setup method with build-type Simple and args:
+["act-as-setup","--build-type=Simple","--","build","--verbose=2","--builddir=/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete"]
+/home/ppk/.cabal/bin/cabal act-as-setup --build-type=Simple -- build
+--verbose=2
+--builddir=/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete
+Component build order: library 'backpack-nat-concrete'
+/home/ppk/haskell-compilers/ghc-8.4.1/bin/ghc-pkg init /home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/package.conf.inplace
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/build/backpack-nat-indef
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/build/backpack-nat-indef/autogen
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/build/backpack-nat-indef/autogen
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/build/backpack-nat-indef/autogen
+Preprocessing library 'backpack-nat-indef' for backpack-nat-0.1.0.0..
+Building library 'backpack-nat-indef' instantiated with Abstract = <Abstract>
+for backpack-nat-0.1.0.0..
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/build/backpack-nat-indef
+/home/ppk/haskell-compilers/ghc-8.4.1/bin/ghc --make -fbuilding-cabal-package -O -outputdir /home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/build/backpack-nat-indef -odir /home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/build/backpack-nat-indef -hidir /home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/build/backpack-nat-indef -stubdir /home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/build/backpack-nat-indef -i -i/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/build/backpack-nat-indef -iindef -i/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/build/backpack-nat-indef/autogen -i/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/build/global-autogen -I/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/build/backpack-nat-indef/autogen -I/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/build/global-autogen -I/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/build/backpack-nat-indef -optP-include -optP/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/build/backpack-nat-indef/autogen/cabal_macros.h -this-unit-id backpack-nat-0.1.0.0-inplace-backpack-nat-indef -this-component-id backpack-nat-0.1.0.0-inplace-backpack-nat-indef -instantiated-with 'Abstract=<Abstract>' -fno-code -fwrite-interface -hide-all-packages -Wmissing-home-modules -no-user-package-db -package-db /home/ppk/.cabal/store/ghc-8.4.1/package.db -package-db /home/ppk/code/git/backpack-nat/dist-newstyle/packagedb/ghc-8.4.1 -package-db /home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/package.conf.inplace -package-id base-4.11.0.0 -XHaskell2010 Util Abstract -Wall -hide-all-packages
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/build/backpack-nat-concrete
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/build/backpack-nat-concrete/autogen
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/build/backpack-nat-concrete/autogen
+Preprocessing library 'backpack-nat-concrete' for backpack-nat-0.1.0.0..
+Building library 'backpack-nat-concrete' for backpack-nat-0.1.0.0..
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/build/backpack-nat-concrete
+/home/ppk/haskell-compilers/ghc-8.4.1/bin/ghc --make -fbuilding-cabal-package -O -static -dynamic-too -dynosuf dyn_o -dynhisuf dyn_hi -outputdir /home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/build/backpack-nat-concrete -odir /home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/build/backpack-nat-concrete -hidir /home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/build/backpack-nat-concrete -stubdir /home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/build/backpack-nat-concrete -i -i/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/build/backpack-nat-concrete -iconcrete -i/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/build/backpack-nat-concrete/autogen -i/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/build/global-autogen -I/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/build/backpack-nat-concrete/autogen -I/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/build/global-autogen -I/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/build/backpack-nat-concrete -optP-include -optP/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/build/backpack-nat-concrete/autogen/cabal_macros.h -this-unit-id backpack-nat-0.1.0.0-inplace-backpack-nat-concrete -hide-all-packages -Wmissing-home-modules -no-user-package-db -package-db /home/ppk/.cabal/store/ghc-8.4.1/package.db -package-db /home/ppk/code/git/backpack-nat/dist-newstyle/packagedb/ghc-8.4.1 -package-db /home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/package.conf.inplace -package-id base-4.11.0.0 -XHaskell2010 Concrete -Wall -hide-all-packages
+[1 of 2] Compiling Abstract[sig]    ( indef/Abstract.hsig, nothing )
+[1 of 1] Compiling Concrete         ( concrete/Concrete.hs, /home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/build/backpack-nat-concrete/Concrete.o )
+[2 of 2] Compiling Util             ( indef/Util.hs, nothing )
+Linking...
+[(DefiniteUnitId (DefUnitId {unDefUnitId = UnitId
+"base-4.11.0.0"}),DefaultRenaming)]
+/usr/bin/ar -r /home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/build/backpack-nat-concrete/objs-1712/libHSbackpack-nat-0.1.0.0-inplace-backpack-nat-concrete.a '@/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/build/backpack-nat-concrete/objs-1712/ar1957747793424238335.rsp'
+/usr/bin/ar: creating /home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/build/backpack-nat-concrete/objs-1712/libHSbackpack-nat-0.1.0.0-inplace-backpack-nat-concrete.a
+/home/ppk/haskell-compilers/ghc-8.4.1/bin/ghc -shared -dynamic '-dynload deploy' -optl-Wl,-rpath,/home/ppk/haskell-compilers/ghc-8.4.1/lib/ghc-8.4.1/base-4.11.0.0 -optl-Wl,-rpath,/home/ppk/haskell-compilers/ghc-8.4.1/lib/ghc-8.4.1/ghc-prim-0.5.2.0 -optl-Wl,-rpath,/home/ppk/haskell-compilers/ghc-8.4.1/lib/ghc-8.4.1/integer-gmp-1.0.1.0 -optl-Wl,-rpath,/home/ppk/haskell-compilers/ghc-8.4.1/lib/ghc-8.4.1/rts -this-unit-id backpack-nat-0.1.0.0-inplace-backpack-nat-concrete -hide-all-packages -no-auto-link-packages -no-user-package-db -package-db /home/ppk/.cabal/store/ghc-8.4.1/package.db -package-db /home/ppk/code/git/backpack-nat/dist-newstyle/packagedb/ghc-8.4.1 -package-db /home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/package.conf.inplace -package-id base-4.11.0.0 /home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/build/backpack-nat-concrete/Concrete.dyn_o -o /home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/build/backpack-nat-concrete/libHSbackpack-nat-0.1.0.0-inplace-backpack-nat-concrete-ghc8.4.1.so -hide-all-packages
+Using self-exec internal setup method with build-type Simple and args:
+["act-as-setup","--build-type=Simple","--","register","--verbose=2","--builddir=/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef","--inplace","--gen-pkg-config=/home/ppk/code/git/backpack-nat/dist-newstyle/tmp/package-registration--1588/pkgConf"]
+/home/ppk/.cabal/bin/cabal act-as-setup --build-type=Simple -- register
+--verbose=2
+--builddir=/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef
+--inplace
+--gen-pkg-config=/home/ppk/code/git/backpack-nat/dist-newstyle/tmp/package-registration--1588/pkgConf
+name: z-backpack-nat-z-backpack-nat-indef
+version: 0.1.0.0
+package-name: backpack-nat
+lib-name: backpack-nat-indef
+id: backpack-nat-0.1.0.0-inplace-backpack-nat-indef
+instantiated-with: Abstract=<Abstract>
+key: backpack-nat-0.1.0.0-inplace-backpack-nat-indef
+license: BSD-3-Clause
+maintainer: ppk@cse.iitk.ac.in
+author: Piyush P Kurur
+homepage: https://github.com/piyush-kurur/backpack-nat
+synopsis: Types with Nat kind in Backpack
+abi: inplace
+indefinite: True
+exposed-modules:
+Util
+import-dirs:
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/build/backpack-nat-indef
+data-dir: /home/ppk/code/git/backpack-nat
+depends:
+base-4.11.0.0
+abi-depends: base-4.11.0.0=fbe01d431ed12096d1c6602fe9bad91f
+haddock-interfaces:
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/doc/html/backpack-nat/backpack-nat.haddock
+haddock-html:
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/doc/html/backpack-nat
+Creating package registration file:
+/home/ppk/code/git/backpack-nat/dist-newstyle/tmp/package-registration--1588/pkgConf
+/home/ppk/haskell-compilers/ghc-8.4.1/bin/ghc-pkg update - --global --no-user-package-db '--package-db=/home/ppk/.cabal/store/ghc-8.4.1/package.db' '--package-db=/home/ppk/code/git/backpack-nat/dist-newstyle/packagedb/ghc-8.4.1'
+Using self-exec internal setup method with build-type Simple and args:
+["act-as-setup","--build-type=Simple","--","register","--verbose=2","--builddir=/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete","--inplace","--gen-pkg-config=/home/ppk/code/git/backpack-nat/dist-newstyle/tmp/package-registration--1588/pkgConf"]
+/home/ppk/.cabal/bin/cabal act-as-setup --build-type=Simple -- register
+--verbose=2
+--builddir=/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete
+--inplace
+--gen-pkg-config=/home/ppk/code/git/backpack-nat/dist-newstyle/tmp/package-registration--1588/pkgConf
+name: z-backpack-nat-z-backpack-nat-concrete
+version: 0.1.0.0
+package-name: backpack-nat
+lib-name: backpack-nat-concrete
+id: backpack-nat-0.1.0.0-inplace-backpack-nat-concrete
+key: backpack-nat-0.1.0.0-inplace-backpack-nat-concrete
+license: BSD-3-Clause
+maintainer: ppk@cse.iitk.ac.in
+author: Piyush P Kurur
+homepage: https://github.com/piyush-kurur/backpack-nat
+synopsis: Types with Nat kind in Backpack
+abi: inplace
+exposed-modules:
+Concrete
+import-dirs:
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/build/backpack-nat-concrete
+library-dirs:
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/build/backpack-nat-concrete
+dynamic-library-dirs:
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/build/backpack-nat-concrete
+data-dir: /home/ppk/code/git/backpack-nat
+hs-libraries: HSbackpack-nat-0.1.0.0-inplace-backpack-nat-concrete
+depends:
+base-4.11.0.0
+abi-depends: base-4.11.0.0=fbe01d431ed12096d1c6602fe9bad91f
+haddock-interfaces:
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/doc/html/backpack-nat/backpack-nat.haddock
+haddock-html:
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-concrete/doc/html/backpack-nat
+Creating package registration file:
+/home/ppk/code/git/backpack-nat/dist-newstyle/tmp/package-registration--1588/pkgConf
+/home/ppk/haskell-compilers/ghc-8.4.1/bin/ghc-pkg update - --global --no-user-package-db '--package-db=/home/ppk/.cabal/store/ghc-8.4.1/package.db' '--package-db=/home/ppk/code/git/backpack-nat/dist-newstyle/packagedb/ghc-8.4.1'
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o/cache
+Using self-exec internal setup method with build-type Simple and args:
+["act-as-setup","--build-type=Simple","--","configure","--verbose=2","--builddir=/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o","--ghc","--prefix=/home/ppk/.cabal","--bindir=/home/ppk/.cabal/bin","--libdir=/home/ppk/.cabal/lib/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0-inplace-backpack-nat-indef","--libsubdir=","--dynlibdir=/home/ppk/.cabal/lib/x86_64-linux-ghc-8.4.1","--libexecdir=/home/ppk/.cabal/libexec/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0","--libexecsubdir=","--datadir=/home/ppk/.cabal/share/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0","--datasubdir=","--docdir=/home/ppk/.cabal/share/doc/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0","--htmldir=/home/ppk/.cabal/share/doc/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0/html","--haddockdir=/home/ppk/.cabal/share/doc/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0/html","--sysconfdir=/home/ppk/.cabal/etc","--enable-library-vanilla","--disable-library-profiling","--enable-shared","--disable-static","--disable-executable-dynamic","--disable-profiling","--profiling-detail=default","--library-profiling-detail=default","--enable-optimization","--disable-debug-info","--disable-library-for-ghci","--disable-split-sections","--disable-split-objs","--disable-executable-stripping","--disable-library-stripping","--package-db=clear","--package-db=global","--package-db=/home/ppk/.cabal/store/ghc-8.4.1/package.db","--package-db=/home/ppk/code/git/backpack-nat/dist-newstyle/packagedb/ghc-8.4.1","--cid=backpack-nat-0.1.0.0-inplace-backpack-nat-indef","--extra-prog-path=/home/ppk/.cabal/bin","--dependency=base=base-4.11.0.0","--instantiate-with=Abstract=backpack-nat-0.1.0.0-inplace-backpack-nat-concrete:Concrete","--disable-coverage","--exact-configuration","--with-ghc=/home/ppk/haskell-compilers/ghc-8.4.1/bin/ghc","--with-ghc-pkg=/home/ppk/haskell-compilers/ghc-8.4.1/bin/ghc-pkg","--ghc-option=-hide-all-packages","lib:backpack-nat-indef"]
+/home/ppk/.cabal/bin/cabal act-as-setup --build-type=Simple -- configure
+--verbose=2
+--builddir=/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o
+--ghc --prefix=/home/ppk/.cabal --bindir=/home/ppk/.cabal/bin
+--libdir=/home/ppk/.cabal/lib/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0-inplace-backpack-nat-indef
+--libsubdir= --dynlibdir=/home/ppk/.cabal/lib/x86_64-linux-ghc-8.4.1
+--libexecdir=/home/ppk/.cabal/libexec/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0
+--libexecsubdir=
+--datadir=/home/ppk/.cabal/share/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0
+--datasubdir=
+--docdir=/home/ppk/.cabal/share/doc/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0
+--htmldir=/home/ppk/.cabal/share/doc/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0/html
+--haddockdir=/home/ppk/.cabal/share/doc/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0/html
+--sysconfdir=/home/ppk/.cabal/etc --enable-library-vanilla
+--disable-library-profiling --enable-shared --disable-static
+--disable-executable-dynamic --disable-profiling --profiling-detail=default
+--library-profiling-detail=default --enable-optimization --disable-debug-info
+--disable-library-for-ghci --disable-split-sections --disable-split-objs
+--disable-executable-stripping --disable-library-stripping --package-db=clear
+--package-db=global --package-db=/home/ppk/.cabal/store/ghc-8.4.1/package.db
+--package-db=/home/ppk/code/git/backpack-nat/dist-newstyle/packagedb/ghc-8.4.1
+--cid=backpack-nat-0.1.0.0-inplace-backpack-nat-indef
+--extra-prog-path=/home/ppk/.cabal/bin --dependency=base=base-4.11.0.0
+--instantiate-with=Abstract=backpack-nat-0.1.0.0-inplace-backpack-nat-concrete:Concrete
+--disable-coverage --exact-configuration
+--with-ghc=/home/ppk/haskell-compilers/ghc-8.4.1/bin/ghc
+--with-ghc-pkg=/home/ppk/haskell-compilers/ghc-8.4.1/bin/ghc-pkg
+--ghc-option=-hide-all-packages lib:backpack-nat-indef
+Using Parsec parser
+Configuring library 'backpack-nat-indef' instantiated with
+  Abstract = backpack-nat-0.1.0.0-inplace-backpack-nat-concrete:Concrete
+for backpack-nat-0.1.0.0..
+Warning: 'hs-source-dirs: src' directory does not exist.
+Dependency base ==4.11.0.0: using base-4.11.0.0
+Source component graph: component lib:backpack-nat-indef
+Configured component graph:
+    component backpack-nat-0.1.0.0-inplace-backpack-nat-indef
+        include base-4.11.0.0
+Linked component graph:
+    unit backpack-nat-0.1.0.0-inplace-backpack-nat-indef[Abstract=<Abstract>]
+        include base-4.11.0.0
+        Util=backpack-nat-0.1.0.0-inplace-backpack-nat-indef[Abstract=<Abstract>]:Util
+Ready component graph:
+    definite backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o
+        depends backpack-nat-0.1.0.0-inplace-backpack-nat-indef
+        depends base-4.11.0.0
+        depends backpack-nat-0.1.0.0-inplace-backpack-nat-concrete
+Using Cabal-2.2.0.0 compiled by ghc-8.0
+Using compiler: ghc-8.4.1
+Using install prefix: /home/ppk/.cabal
+Executables installed in: /home/ppk/.cabal/bin
+Libraries installed in:
+/home/ppk/.cabal/lib/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0-inplace-backpack-nat-indef
+Dynamic Libraries installed in: /home/ppk/.cabal/lib/x86_64-linux-ghc-8.4.1
+Private executables installed in:
+/home/ppk/.cabal/libexec/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0
+Data files installed in:
+/home/ppk/.cabal/share/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0
+Documentation installed in:
+/home/ppk/.cabal/share/doc/x86_64-linux-ghc-8.4.1/backpack-nat-0.1.0.0
+Configuration files installed in: /home/ppk/.cabal/etc
+No alex found
+Using ar found on system at: /usr/bin/ar
+No c2hs found
+No cpphs found
+No doctest found
+Using gcc version 7 found on system at: /usr/bin/gcc
+Using ghc version 8.4.1 given by user at:
+/home/ppk/haskell-compilers/ghc-8.4.1/bin/ghc
+Using ghc-pkg version 8.4.1 given by user at:
+/home/ppk/haskell-compilers/ghc-8.4.1/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+Using haddock version 2.19.0 found on system at:
+/home/ppk/haskell-compilers/ghc-8.4.1/bin/haddock
+No happy found
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/home/ppk/haskell-compilers/ghc-8.4.1/bin/hpc
+Using hsc2hs version 0.68.3 found on system at:
+/home/ppk/haskell-compilers/ghc-8.4.1/bin/hsc2hs
+No hscolour found
+No jhc found
+Using ld found on system at: /usr/bin/ld.gold
+No lhc found
+No lhc-pkg found
+Using pkg-config version 0.29 found on system at: /usr/bin/pkg-config
+Using runghc version 8.4.1 found on system at:
+/home/ppk/haskell-compilers/ghc-8.4.1/bin/runghc
+Using strip version 2.30 found on system at: /usr/bin/strip
+Using tar found on system at: /bin/tar
+No uhc found
+Using self-exec internal setup method with build-type Simple and args:
+["act-as-setup","--build-type=Simple","--","build","--verbose=2","--builddir=/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o"]
+/home/ppk/.cabal/bin/cabal act-as-setup --build-type=Simple -- build
+--verbose=2
+--builddir=/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o
+Component build order: library 'backpack-nat-indef'
+/home/ppk/haskell-compilers/ghc-8.4.1/bin/ghc-pkg init '/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o/package.conf.inplace'
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o/build/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o/build/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o/autogen
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o/build/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o/autogen
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o/build/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o/autogen
+Preprocessing library 'backpack-nat-indef' for backpack-nat-0.1.0.0..
+Building library 'backpack-nat-indef' instantiated with
+  Abstract = backpack-nat-0.1.0.0-inplace-backpack-nat-concrete:Concrete
+for backpack-nat-0.1.0.0..
+creating
+/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o/build/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o
+/home/ppk/haskell-compilers/ghc-8.4.1/bin/ghc --make -fbuilding-cabal-package -O -static -dynamic-too -dynosuf dyn_o -dynhisuf dyn_hi -outputdir '/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o/build/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o' -odir '/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o/build/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o' -hidir '/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o/build/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o' -stubdir '/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o/build/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o' -i '-i/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o/build/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o' -iindef '-i/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o/build/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o/autogen' '-i/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o/build/global-autogen' '-I/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o/build/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o/autogen' '-I/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o/build/global-autogen' '-I/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o/build/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o' -optP-include '-optP/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o/build/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o/autogen/cabal_macros.h' -this-unit-id 'backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o' -this-component-id backpack-nat-0.1.0.0-inplace-backpack-nat-indef -instantiated-with 'Abstract=backpack-nat-0.1.0.0-inplace-backpack-nat-concrete:Concrete' -hide-all-packages -Wmissing-home-modules -no-user-package-db -package-db /home/ppk/.cabal/store/ghc-8.4.1/package.db -package-db /home/ppk/code/git/backpack-nat/dist-newstyle/packagedb/ghc-8.4.1 -package-db '/home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o/package.conf.inplace' -package-id base-4.11.0.0 -XHaskell2010 Util Abstract -Wall -hide-all-packages
+[1 of 2] Compiling Abstract[sig]    ( indef/Abstract.hsig, /home/ppk/code/git/backpack-nat/dist-newstyle/build/x86_64-linux/ghc-8.4.1/backpack-nat-0.1.0.0/l/backpack-nat-indef/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o/build/backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o/Abstract.o )
+
+<no location info>: error:
+    • Type constructor ‘NatType’ has conflicting definitions in the module
+      and its hsig file
+      Main module: type NatType = 32 :: ghc-prim-0.5.2.0:GHC.Types.Nat
+      Hsig file:  data NatType :: ghc-prim-0.5.2.0:GHC.Types.Nat
+    • while checking that backpack-nat-0.1.0.0:Concrete implements signature Abstract in backpack-nat-0.1.0.0:backpack-nat-indef[Abstract=backpack-nat-0.1.0.0:Concrete]
+CallStack (from HasCallStack):
+  die', called at ./Distribution/Client/ProjectOrchestration.hs:917:8 in main:Distribution.Client.ProjectOrchestration
+cabal: Failed to build backpack-nat-0.1.0.0 because it depends on
+backpack-nat-0.1.0.0 which itself failed to build.
+Failed to build
+backpack-nat-0.1.0.0-inplace-backpack-nat-indef+JKgf2hRX47gF23KwhGyf6o.
+Failed to build backpack-nat-0.1.0.0 because it depends on
+backpack-nat-0.1.0.0 which itself failed to build.
+
