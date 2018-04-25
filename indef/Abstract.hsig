@@ -14,11 +14,11 @@ import GHC.TypeLits
 data Foo
 instance Show Foo
 
--- data NatType :: Nat -- This does not work when the concrete module
+data NatType :: Nat -- This does not work when the concrete module
                        -- is instantiated
 
 
-type NatType = 32
+-- type NatType = 32
 
 
 
