@@ -1,0 +1,237 @@
+Glasgow Haskell Compiler, Version 8.4.1, stage 2 booted by GHC version 8.0.2
+Using binary package database: /home/ppk/haskell-compilers/ghc-8.4.1/lib/ghc-8.4.1/package.conf.d/package.cache
+Using binary package database: /home/ppk/.cabal/store/ghc-8.4.1/package.db/package.cache
+Using binary package database: /home/ppk/code/git/backpack-nat/dist-newstyle/packagedb/ghc-8.4.1/package.cache
+package flags [-package-id backpack-nat-0.1.0.0-inplace-backpack-nat-indef{unit backpack-nat-0.1.0.0-inplace-backpack-nat-indef True ([])},
+               -package-id base-4.11.0.0{unit base-4.11.0.0 True ([])},
+               -package-id rts{unit rts True ([])},
+               -package-id ghc-prim-0.5.2.0{unit ghc-prim-0.5.2.0 True ([])},
+               -package-id integer-gmp-1.0.1.0{unit integer-gmp-1.0.1.0 True ([])},
+               -package-id backpack-nat-0.1.0.0-inplace-backpack-nat-concrete{unit backpack-nat-0.1.0.0-inplace-backpack-nat-concrete True ([])}]
+loading package database /home/ppk/haskell-compilers/ghc-8.4.1/lib/ghc-8.4.1/package.conf.d
+loading package database /home/ppk/.cabal/store/ghc-8.4.1/package.db
+loading package database /home/ppk/code/git/backpack-nat/dist-newstyle/packagedb/ghc-8.4.1
+wired-in package ghc-prim mapped to ghc-prim-0.5.2.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.1.0
+wired-in package base mapped to base-4.11.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.13.0.0
+wired-in package ghc mapped to ghc-8.4.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+package flags [-package-id backpack-nat-0.1.0.0-inplace-backpack-nat-indef{unit backpack-nat-0.1.0.0 True ([])},
+               -package-id base-4.11.0.0{unit base-4.11.0.0 True ([])},
+               -package-id rts{unit rts-1.0 True ([])},
+               -package-id ghc-prim-0.5.2.0{unit ghc-prim-0.5.2.0 True ([])},
+               -package-id integer-gmp-1.0.1.0{unit integer-gmp-1.0.1.0 True ([])},
+               -package-id backpack-nat-0.1.0.0-inplace-backpack-nat-concrete{unit backpack-nat-0.1.0.0 True ([])}]
+loading package database /home/ppk/haskell-compilers/ghc-8.4.1/lib/ghc-8.4.1/package.conf.d
+loading package database /home/ppk/.cabal/store/ghc-8.4.1/package.db
+loading package database /home/ppk/code/git/backpack-nat/dist-newstyle/packagedb/ghc-8.4.1
+wired-in package ghc-prim mapped to ghc-prim-0.5.2.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.1.0
+wired-in package base mapped to base-4.11.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.13.0.0
+wired-in package ghc mapped to ghc-8.4.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2018-05-09 04:57:11.616712666 UTC
+         ms_mod = Abstract[sig],
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, GHC.TypeLits)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2018-05-09 04:57:11.616712666 UTC
+         ms_mod = Util,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Abstract),
+                            (Nothing, Data.Proxy), (Nothing, GHC.TypeLits)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: 
+compile: input file ./indef/../Abstract.hi
+*** Checking old interface for Abstract (use -ddump-hi-diffs for more details):
+*** Check unit id backpack-nat-0.1.0.0:backpack-nat-indef[Abstract=Abstract]:
+!!! Check unit id backpack-nat-0.1.0.0:backpack-nat-indef[Abstract=Abstract]: finished in 0.02 milliseconds, allocated 0.000 megabytes
+*** Deleting temp files:
+Deleting: 
+compile: input file ./indef/../Util.hi
+*** Checking old interface for Util (use -ddump-hi-diffs for more details):
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: 
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+package flags [-package-id backpack-nat-0.1.0.0-inplace-backpack-nat-indef{unit backpack-nat-0.1.0.0 True ([])},
+               -package-id base-4.11.0.0{unit base-4.11.0.0 True ([])},
+               -package-id rts{unit rts-1.0 True ([])},
+               -package-id ghc-prim-0.5.2.0{unit ghc-prim-0.5.2.0 True ([])},
+               -package-id integer-gmp-1.0.1.0{unit integer-gmp-1.0.1.0 True ([])},
+               -package-id backpack-nat-0.1.0.0-inplace-backpack-nat-concrete{unit backpack-nat-0.1.0.0 True ([])}]
+loading package database /home/ppk/haskell-compilers/ghc-8.4.1/lib/ghc-8.4.1/package.conf.d
+loading package database /home/ppk/.cabal/store/ghc-8.4.1/package.db
+loading package database /home/ppk/code/git/backpack-nat/dist-newstyle/packagedb/ghc-8.4.1
+loading package database (in memory indef)
+wired-in package ghc-prim mapped to ghc-prim-0.5.2.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.1.0
+wired-in package base mapped to base-4.11.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.13.0.0
+wired-in package ghc mapped to ghc-8.4.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+package flags [-package-id backpack-nat-0.1.0.0-inplace-backpack-nat-indef{unit backpack-nat-0.1.0.0 True ([])},
+               -package-id base-4.11.0.0{unit base-4.11.0.0 True ([])},
+               -package-id rts{unit rts-1.0 True ([])},
+               -package-id ghc-prim-0.5.2.0{unit ghc-prim-0.5.2.0 True ([])},
+               -package-id integer-gmp-1.0.1.0{unit integer-gmp-1.0.1.0 True ([])},
+               -package-id backpack-nat-0.1.0.0-inplace-backpack-nat-concrete{unit backpack-nat-0.1.0.0 True ([])}]
+loading package database /home/ppk/haskell-compilers/ghc-8.4.1/lib/ghc-8.4.1/package.conf.d
+loading package database /home/ppk/.cabal/store/ghc-8.4.1/package.db
+loading package database /home/ppk/code/git/backpack-nat/dist-newstyle/packagedb/ghc-8.4.1
+loading package database (in memory indef)
+wired-in package ghc-prim mapped to ghc-prim-0.5.2.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.1.0
+wired-in package base mapped to base-4.11.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.13.0.0
+wired-in package ghc mapped to ghc-8.4.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2018-05-09 04:57:11.616712666 UTC
+         ms_mod = Concrete,
+         ms_textual_imps = [(Nothing, Prelude)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: 
+compile: input file ./concrete/../Concrete.hi
+*** Checking old interface for Concrete (use -ddump-hi-diffs for more details):
+*** Renamer/typechecker [Concrete]:
+!!! Renamer/typechecker [Concrete]: finished in 6.67 milliseconds, allocated 7.674 megabytes
+*** Desugar [Concrete]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0, joins: 0/0}
+!!! Desugar [Concrete]: finished in 0.13 milliseconds, allocated 0.094 megabytes
+*** Simplifier [Concrete]:
+Result size of Simplifier iteration=1
+  = {terms: 14, types: 5, coercions: 0, joins: 0/0}
+Result size of Simplifier
+  = {terms: 14, types: 5, coercions: 0, joins: 0/0}
+!!! Simplifier [Concrete]: finished in 0.19 milliseconds, allocated 0.166 megabytes
+*** CoreTidy [Concrete]:
+Result size of Tidy Core
+  = {terms: 14, types: 5, coercions: 0, joins: 0/0}
+!!! CoreTidy [Concrete]: finished in 0.95 milliseconds, allocated 0.939 megabytes
+Created temporary directory: /tmp/ghc25387_0
+*** CorePrep [Concrete]:
+Result size of CorePrep
+  = {terms: 14, types: 5, coercions: 0, joins: 0/0}
+!!! CorePrep [Concrete]: finished in 0.06 milliseconds, allocated 0.062 megabytes
+*** Stg2Stg:
+*** CodeGen [Concrete]:
+!!! CodeGen [Concrete]: finished in 0.26 milliseconds, allocated 0.187 megabytes
+*** Assembler:
+gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Iconcrete -no-pie -x assembler -c /tmp/ghc25387_0/ghc_2.s -o ./concrete/Concrete.o
+*** Check unit id backpack-nat-0.1.0.0:backpack-nat-indef[Abstract=Abstract]:
+!!! Check unit id backpack-nat-0.1.0.0:backpack-nat-indef[Abstract=Abstract]: finished in 0.01 milliseconds, allocated 0.004 megabytes
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc25387_0/ghc_1.s /tmp/ghc25387_0/ghc_2.s /tmp/ghc25387_0/ghc_3.c
+Warning: deleting non-existent /tmp/ghc25387_0/ghc_1.s
+Warning: deleting non-existent /tmp/ghc25387_0/ghc_3.c
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+package flags [-package-id backpack-nat-0.1.0.0-inplace-backpack-nat-indef{unit backpack-nat-0.1.0.0 True ([])},
+               -package-id base-4.11.0.0{unit base-4.11.0.0 True ([])},
+               -package-id rts{unit rts-1.0 True ([])},
+               -package-id ghc-prim-0.5.2.0{unit ghc-prim-0.5.2.0 True ([])},
+               -package-id integer-gmp-1.0.1.0{unit integer-gmp-1.0.1.0 True ([])},
+               -package-id backpack-nat-0.1.0.0-inplace-backpack-nat-concrete{unit backpack-nat-0.1.0.0 True ([])}]
+loading package database /home/ppk/haskell-compilers/ghc-8.4.1/lib/ghc-8.4.1/package.conf.d
+loading package database /home/ppk/.cabal/store/ghc-8.4.1/package.db
+loading package database /home/ppk/code/git/backpack-nat/dist-newstyle/packagedb/ghc-8.4.1
+loading package database (in memory indef)
+loading package database (in memory concrete)
+wired-in package ghc-prim mapped to ghc-prim-0.5.2.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.1.0
+wired-in package base mapped to base-4.11.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.13.0.0
+wired-in package ghc mapped to ghc-8.4.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+package flags [-package-id backpack-nat-0.1.0.0-inplace-backpack-nat-indef{unit backpack-nat-0.1.0.0 True ([])},
+               -package-id base-4.11.0.0{unit base-4.11.0.0 True ([])},
+               -package-id rts{unit rts-1.0 True ([])},
+               -package-id ghc-prim-0.5.2.0{unit ghc-prim-0.5.2.0 True ([])},
+               -package-id integer-gmp-1.0.1.0{unit integer-gmp-1.0.1.0 True ([])},
+               -package-id backpack-nat-0.1.0.0-inplace-backpack-nat-concrete{unit backpack-nat-0.1.0.0 True ([])}]
+loading package database /home/ppk/haskell-compilers/ghc-8.4.1/lib/ghc-8.4.1/package.conf.d
+loading package database /home/ppk/.cabal/store/ghc-8.4.1/package.db
+loading package database /home/ppk/code/git/backpack-nat/dist-newstyle/packagedb/ghc-8.4.1
+loading package database (in memory indef)
+loading package database (in memory concrete)
+wired-in package ghc-prim mapped to ghc-prim-0.5.2.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.1.0
+wired-in package base mapped to base-4.11.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.13.0.0
+wired-in package ghc mapped to ghc-8.4.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2018-05-09 04:57:11.616712666 UTC
+         ms_mod = Abstract[sig],
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, GHC.TypeLits)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2018-05-09 04:57:11.616712666 UTC
+         ms_mod = Util,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Abstract),
+                            (Nothing, Data.Proxy), (Nothing, GHC.TypeLits)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: 
+compile: input file ./indef/indef-K2nm8R1bI7g7EwSw2CpXtN/../Abstract.hi
+*** Checking old interface for Abstract (use -ddump-hi-diffs for more details):
+*** Signature instantiation [Abstract]:
+!!! Signature instantiation [Abstract]: finished in 26.12 milliseconds, allocated 13.113 megabytes
+
+backpack-nat.bkp:26:6: error:
+    • Type constructor ‘NatType’ has conflicting definitions in the module
+      and its hsig file
+      Main module: type NatType = 32 :: GHC.Types.Nat
+      Hsig file:  data NatType :: GHC.Types.Nat
+    • while checking that concrete:Concrete implements signature Abstract in indef[Abstract=concrete:Concrete]
+   |
+26 |      type NatType = 32
+   |      ^^^^^^^^^^^^^^^^^
+Upsweep partially successful.
+*** Deleting temp files:
+Deleting: 
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: 
+*** Deleting temp dirs:
+Deleting: /tmp/ghc25387_0
